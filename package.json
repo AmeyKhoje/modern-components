@@ -1,0 +1,24 @@
+{
+  "name": "modern-components",
+  "version": "1.0.0",
+  "description": "Library for different modern components",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lerna run build --scope modern-grid",
+    "watch": "lerna run watch --scope modern-grid",
+    "package": "lerna exec --scope modern-grid -- npm pack",
+    "publish": "lerna run tsc && lerna publish"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.3.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "type": "module"
+}
