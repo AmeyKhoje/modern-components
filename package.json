@@ -6,9 +6,9 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "lerna run build --scope modern-grid",
-    "watch": "lerna run watch --scope modern-grid",
-    "package": "lerna exec --scope modern-grid -- npm pack",
+    "build": "lerna run build --scope modern-grid-system",
+    "watch": "lerna run watch --scope modern-grid-system",
+    "package": "lerna exec --scope modern-grid-system -- npm pack",
     "publish": "lerna run tsc && lerna publish"
   },
   "author": "",

@@ -1,5 +1,5 @@
 {
-  "name": "modern-grid",
+  "name": "modern-grid-system",
   "version": "1.0.2",
   "description": "",
   "main": "./lib/cjs/index.js",
@@ -31,5 +31,5 @@
     "rollup-plugin-dts": "^6.0.2",
     "rollup-plugin-peer-deps-external": "^2.2.4"
   },
-  "gitHead": "44943031e8c0e6503290062db7ace5e249499b0b"
+  "gitHead": "f86864037bf9751f3cf74f9b54c111cf6ba344e5"
 }
