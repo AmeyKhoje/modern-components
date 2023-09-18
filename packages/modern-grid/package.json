@@ -30,5 +30,6 @@
     "rollup": "^3.29.2",
     "rollup-plugin-dts": "^6.0.2",
     "rollup-plugin-peer-deps-external": "^2.2.4"
-  }
+  },
+  "gitHead": "44943031e8c0e6503290062db7ace5e249499b0b"
 }

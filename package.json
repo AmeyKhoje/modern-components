@@ -1,7 +1,7 @@
 {
   "name": "modern-components",
   "version": "1.0.0",
-  "description": "Library for different modern components",
+  "description": "Library for different modern components for easy use",
   "main": "index.js",
   "private": true,
   "scripts": {
