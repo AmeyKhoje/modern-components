@@ -14,9 +14,7 @@ const Grid = ({ divideBy, gutterSpace, elements }: SelfProps) => {
     return <>Provide data</>;
   }
 
-  const isValidDivision = useMemo(() => {
-    return checkValidDivision(divideBy);
-  }, [divideBy]);
+  const isValidDivision = checkValidDivision(divideBy);
 
   if (!isValidDivision) {
     return <>Given wrong input</>;
