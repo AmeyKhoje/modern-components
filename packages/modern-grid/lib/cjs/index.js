@@ -4260,9 +4260,7 @@ var Grid = function (_a) {
     if (!(elements === null || elements === void 0 ? void 0 : elements.length) || !(divideBy === null || divideBy === void 0 ? void 0 : divideBy.length)) {
         return jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: "Provide data" });
     }
-    var isValidDivision = reactExports.useMemo(function () {
-        return checkValidDivision(divideBy);
-    }, [divideBy]);
+    var isValidDivision = checkValidDivision(divideBy);
     if (!isValidDivision) {
         return jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: "Given wrong input" });
     }
