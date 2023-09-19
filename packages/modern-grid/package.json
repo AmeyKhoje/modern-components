@@ -14,7 +14,16 @@
     "build": "rollup -c",
     "watch": "rollup -cw"
   },
-  "keywords": [],
+  "keywords": [
+    "grid",
+    "react",
+    "typescript",
+    "react-grid",
+    "dynamic-grid",
+    "javascript-grid",
+    "ui-grid",
+    "javascript"
+  ],
   "author": "",
   "license": "ISC",
   "peerDependencies": {
