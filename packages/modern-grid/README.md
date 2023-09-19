@@ -21,6 +21,10 @@ function App() {
 }
 ```
 
+## Output
+
+![alt-text](https://github.com/AmeyKhoje/modern-components/blob/master/packages/modern-grid/src/images/op.png)
+
 ## Props
 
 1. divideBy: array of number
